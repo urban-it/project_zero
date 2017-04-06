@@ -4,7 +4,9 @@ Minigame created with Lua and Defold
 
 ## The Idea
 
-The title -obviously- refers to the guys you reign over within the game. You are a ancient god and whatch over a civilisation which shall homage you! You decide whether they obey you because of fear or love, the only important thing is that they only follow you. To achieve that you get some abilities and useful skills on your side to gather their fear or trust. Prudenter Decernere!
+The title -obviously- refers to the guys you reign over within the game. It absolutly *not* refers *not* to the console peasants whom can´t get in the indulgence of this game or 60 fps.
+You are a ancient god and watch over a civilisation which shall homage you! You decide whether they obey you because of fear or love, the only important thing is that they only follow you. To achieve that you get some abilities and useful skills on your side to gather their fear or trust. 
+Prudenter Decernere!
 
 ## The Concept
 
@@ -13,6 +15,7 @@ The current idle games are only with little interaction and planning as you clic
 
 ## The Guys
 
-We are 3 guys from germany :de: which are currently in the job training for computer scientist (:beginner:) and trying to get some experience in game development. So don´t mind us...
+We are 3 guys from germany :de: which are currently up for job training in computer science (:beginner:) and trying to get some experience in game development. 
+So don´t mind us...
 
 ~
