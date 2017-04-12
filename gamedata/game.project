@@ -13,11 +13,12 @@ game_binding = /input/game.input_bindingc
 width = 1920
 height = 1080
 fullscreen = 1
+update_frequency = 60
 
 [physics]
 scale = 0.02
 debug = 0
+type = 2D
 
 [script]
 shared_state = 1
-
