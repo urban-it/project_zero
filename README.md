@@ -1,4 +1,4 @@
-# "Filthy Peasants"
+# "Filthy Peasants" by Lazy Proggers
 
 Minigame created with Lua and Defold
 
@@ -17,7 +17,7 @@ The current idle games only offer little interaction and planning ahead as only 
 
 ## The Team
 
-We are 3 guys from germany :de: which are currently trainees in the field of software development (:beginner:) and we are trying to get some experience in game development. 
+We are a small team from germany :de:, mostly trainees in the field of software development (:beginner:) and we are trying to get some experience in game development. The name "Lazy Proggers" should be pretty self explaining, we are all somehow lazy which forces us to write simple and clean code.
 So don´t mind us...
 
 This file will be updated during the development.
