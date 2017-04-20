@@ -1,5 +1,5 @@
 images {
-  image: "/main/images/logo.png"
+  image: "/loginscreen/images/button.png"
 }
 margin: 0
 extrude_borders: 0
