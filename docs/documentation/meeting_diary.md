@@ -35,3 +35,19 @@
 
 #### UltraLurd
 - GUI draft (until 13.04.2017)
+
+# 19.04.2017
+
+### Guys:
+- xFuture603
+- UltraLurd
+- creyD
+
+### Results:
+- Logo has to be reworked
+- Milestone 2 until 31.05.2017
+- Documentation should be splitted
+- New tasks on the board
+- Backupbranch should be created
+
+... and quite some burgers eaten! :hamburger:
