@@ -1,7 +1,11 @@
-script: ""
+script: "/loginscreen/CreditsButtonFunctions.gui_script"
 fonts {
   name: "system_font"
   font: "/builtins/fonts/system_font.font"
+}
+textures {
+  name: "loginscreen"
+  texture: "/loginscreen/loginscreen.atlas"
 }
 background_color {
   x: 0.0
@@ -127,8 +131,8 @@ nodes {
 }
 nodes {
   position {
-    x: 149.1
-    y: 718.261
+    x: 244.848
+    y: 361.55
     z: 0.0
     w: 1.0
   }
@@ -145,8 +149,8 @@ nodes {
     w: 1.0
   }
   size {
-    x: 200.0
-    y: 100.0
+    x: 400.0
+    y: 200.0
     z: 0.0
     w: 1.0
   }
@@ -158,7 +162,7 @@ nodes {
   }
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
-  texture: ""
+  texture: "loginscreen/button"
   id: "creditsbox"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
