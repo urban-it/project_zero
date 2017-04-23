@@ -1,0 +1,9 @@
+function credits_input(self, action_id, action)
+	if action_id == hash("touch") then
+		if action.released then 
+			if gui.pick_node(gui.get_node(creditsbox), action.x, action.y) then
+				print("Filthy Credits for you guys")
+			end
+		end
+	end
+end
