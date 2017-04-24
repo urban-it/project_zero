@@ -2,7 +2,7 @@
 
 Minigame created with Lua and Defold
 
-Current Status: Planning
+Current Status: Planning | *Building* | Testing | Finished
 
 ## The Idea
 
@@ -18,7 +18,8 @@ The current idle games only offer little interaction and planning ahead as only 
 
 ## The Team
 
-We are a small team from germany :de:, mostly trainees in the field of software development (:beginner:) and we are trying to get some experience in game development. The name "Lazy Proggers" should be pretty self explaining, we are all somehow lazy which forces us to write simple and clean code. So don´t mind us...
+We are a [small team](https://github.com/LazyProggers) from germany :de:, mostly trainees in the field of software development (:beginner:) and we are trying to get some experience in game development. The name "Lazy Proggers" should be pretty self explaining, we all are somehow lazy which forces us to write simple and clean code. Next to the developers ([UltraLurd](https://github.com/UltraLurd), [xFuture](https://github.com/xFuture603) and [creyD](https://github.com/creyD)) we currently got one designer ([clomee](https://github.com/clomee)). Don´t mind us...
 
-This file will be updated during the development.
-~
+![Our logo](https://github.com/creyD/project_zero/blob/master/docs/company_logo/Schnabeltier.jpg)
+
+*This file will be updated during the development. ~*
