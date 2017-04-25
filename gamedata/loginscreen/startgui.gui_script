@@ -1,0 +1,22 @@
+function init(self)
+		--UI wird "gehided" bis sie gebraucht wird.
+	msg.post(".", "acquire_input_focus")
+	msg.post("login","disable");
+end
+
+function on_message(self, message_id, message, sender)
+		-- warten auf die Nachricht vom login layer das die UI "gehided" wurde
+		-- eingrauen der UI sprites
+	if(message_id ==hash ("DONE_UI")) then
+		go.set("#creditsbox", "tint.w",1.0)
+	end
+end
+
+function on_input(self, action_id, action)
+	-- wenn der Nutzer den Button triggert zeigt es unsere GUI und "graut" unseren Button aus
+	if(action_id == hash("ESC") and action.released) then
+	--UI wird wieder benötigt, also wieder reenablen
+	msg.post("UI","enable")
+	go.set("#creditsbox", "tint.w", 02)
+	end
+end

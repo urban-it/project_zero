@@ -1,4 +1,4 @@
-script: "/loginscreen/CreditsButtonFunctions.gui_script"
+script: "/loginscreen/startgui.gui_script"
 fonts {
   name: "system_font"
   font: "/builtins/fonts/system_font.font"
@@ -100,7 +100,7 @@ nodes {
   }
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
-  text: "Filthy Peasants"
+  text: "Filthy and dirty text"
   font: "system_font"
   id: "guifilthytitle"
   xanchor: XANCHOR_NONE
