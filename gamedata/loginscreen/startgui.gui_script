@@ -14,7 +14,7 @@ end
 
 function on_input(self, action_id, action)
 	-- wenn der Nutzer den Button triggert zeigt es unsere GUI und "graut" unseren Button aus
-	if(action_id == hash("B") and action.released) then
+	if(action_id == hash("ESC") and action.released) then
 	--UI wird wieder benötigt, also wieder reenablen
 	msg.post("UI","enable")
 	go.set("#creditsbox", "tint.w", 02)

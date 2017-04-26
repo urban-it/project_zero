@@ -69,8 +69,8 @@ nodes {
 }
 nodes {
   position {
-    x: 1406.243
-    y: 957.308
+    x: 872.174
+    y: 649.814
     z: 1.0
     w: 1.0
   }
@@ -100,22 +100,22 @@ nodes {
   }
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
-  text: "Filty Peasants"
+  text: "Filthy and dirty text"
   font: "system_font"
   id: "guifilthytitle"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_N
   outline {
-    x: 0.0
-    y: 0.0
-    z: 0.0
+    x: 1.0
+    y: 1.0
+    z: 1.0
     w: 1.0
   }
   shadow {
-    x: 0.0
-    y: 0.0
-    z: 0.0
+    x: 1.0
+    y: 1.0
+    z: 1.0
     w: 1.0
   }
   adjust_mode: ADJUST_MODE_FIT
@@ -123,16 +123,16 @@ nodes {
   layer: ""
   inherit_alpha: true
   alpha: 1.0
-  outline_alpha: 0.0
-  shadow_alpha: 0.0
+  outline_alpha: 1.0
+  shadow_alpha: 1.0
   template_node_child: false
   text_leading: 1.0
   text_tracking: 0.0
 }
 nodes {
   position {
-    x: 301.492
-    y: 766.148
+    x: 244.848
+    y: 361.55
     z: 0.0
     w: 1.0
   }
