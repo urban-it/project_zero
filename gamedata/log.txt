@@ -2,15 +2,7 @@ INFO:DLIB: Writing log to: ./log.txt
 INFO:ENGINE: Loading data from: build/default
 INFO:ENGINE: Initialised sound device 'default'
 
-ERROR:GAMEOBJECT: Instance '/login' could not be found when dispatching message 'disable' sent from loginscreen.collection:/GUIObject#gui
-INFO:DLIB: SSDP: Started on address 169.254.52.242
-INFO:DLIB: SSDP: Started on address 192.168.56.1
-INFO:DLIB: SSDP: Started on address 192.168.156.177
-ERROR:SCRIPT: /loginscreen/startgui.gui_script:20: bad argument #5 to 'set' (GOScriptInstance expected, got userdata)
-stack traceback:
-	[C]: in function 'set'
-	/loginscreen/startgui.gui_script:20: in function </loginscreen/startgui.gui_script:15>
-ERROR:GAMEOBJECT: Instance '/UI' could not be found when dispatching message 'enable' sent from loginscreen.collection:/GUIObject#gui
-INFO:DLIB: SSDP: Done on address 169.254.52.242
-INFO:DLIB: SSDP: Done on address 192.168.56.1
-INFO:DLIB: SSDP: Done on address 192.168.156.177
+DEBUG:SCRIPT: GUI initialized
+ERROR:GAMEOBJECT: Instance '/login.gui' could not be found when dispatching message 'disable' sent from loginscreen.collection:/GUIObject#gui
+INFO:DLIB: SSDP: Started on address 192.168.4.13
+INFO:DLIB: SSDP: Done on address 192.168.4.13
