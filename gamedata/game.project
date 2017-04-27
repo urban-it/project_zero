@@ -26,3 +26,12 @@ shared_state = 1
 [library]
 include_dirs = 
 
+[ios]
+bundle_identifier = lazyproggers.filthy_peasants
+
+[osx]
+bundle_identifier = lazyproggers.filthy_peasants
+
+[iap]
+auto_finish_transactions = 0
+

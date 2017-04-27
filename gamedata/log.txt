@@ -1,8 +1,0 @@
-INFO:DLIB: Writing log to: ./log.txt
-INFO:ENGINE: Loading data from: build/default
-INFO:ENGINE: Initialised sound device 'default'
-
-DEBUG:SCRIPT: GUI initialized
-ERROR:GAMEOBJECT: Instance '/login.gui' could not be found when dispatching message 'disable' sent from loginscreen.collection:/GUIObject#gui
-INFO:DLIB: SSDP: Started on address 192.168.4.13
-INFO:DLIB: SSDP: Done on address 192.168.4.13

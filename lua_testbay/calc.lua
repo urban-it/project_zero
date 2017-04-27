@@ -1,6 +1,6 @@
 --[[
 	the general calculator (lua testproject)
-	©Conrad Großer 2017
+	�Conrad Grosser 2017
 ]]--
 function plus(nummer1, nummer2)
 	c = nummer1 + nummer2
