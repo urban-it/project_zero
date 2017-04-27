@@ -1,6 +1,9 @@
 images {
   image: "/loginscreen/images/button.png"
 }
+images {
+  image: "/stock_images/stock_mainbackground.png"
+}
 margin: 0
 extrude_borders: 0
 inner_padding: 0
