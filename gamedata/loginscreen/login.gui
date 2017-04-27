@@ -1,4 +1,4 @@
-script: "/loginscreen/CreditsButtonFunctions.gui_script"
+script: "/loginscreen/startgui.gui_script"
 fonts {
   name: "system_font"
   font: "/builtins/fonts/system_font.font"
@@ -15,7 +15,7 @@ background_color {
 }
 nodes {
   position {
-    x: 0.0
+    x: 3.485
     y: 0.0
     z: 0.0
     w: 1.0
@@ -69,8 +69,8 @@ nodes {
 }
 nodes {
   position {
-    x: 872.174
-    y: 649.814
+    x: 1394.946
+    y: 987.873
     z: 1.0
     w: 1.0
   }
@@ -107,15 +107,15 @@ nodes {
   yanchor: YANCHOR_NONE
   pivot: PIVOT_N
   outline {
-    x: 1.0
-    y: 1.0
-    z: 1.0
+    x: 0.0
+    y: 0.0
+    z: 0.0
     w: 1.0
   }
   shadow {
-    x: 1.0
-    y: 1.0
-    z: 1.0
+    x: 0.0
+    y: 0.0
+    z: 0.0
     w: 1.0
   }
   adjust_mode: ADJUST_MODE_FIT
@@ -123,16 +123,16 @@ nodes {
   layer: ""
   inherit_alpha: true
   alpha: 1.0
-  outline_alpha: 1.0
-  shadow_alpha: 1.0
+  outline_alpha: 0.0
+  shadow_alpha: 0.0
   template_node_child: false
   text_leading: 1.0
   text_tracking: 0.0
 }
 nodes {
   position {
-    x: 244.848
-    y: 361.55
+    x: 272.729
+    y: 859.926
     z: 0.0
     w: 1.0
   }
@@ -185,8 +185,8 @@ nodes {
 }
 nodes {
   position {
-    x: -10.884
-    y: 2.721
+    x: 6.542
+    y: -0.764
     z: 0.0
     w: 1.0
   }
