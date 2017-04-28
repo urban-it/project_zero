@@ -14,7 +14,7 @@ Prudenter Decernere!
 ## The Concept
 
 The game should be a 2D idle/ slight strategy game which you can play both full time with focus or while you watch some series...
-The current idle games only offer little interaction and planning ahead as only repeat the same action to infinity. Current strategy games are mostly very complex and sometimes hard to get for beginners. We will try to mix these genres using -hopefully- the best features from both. Adding many random events and custom reactions to each of the players actions will keep the exitement at an even level. You can basically execute some action two times and get different results because of slightly different circumstances.
+The current idle games only offer little interaction and planning ahead as only repeat the same action to infinity. Current strategy games are mostly very complex and sometimes hard to get for beginners. We will try to mix these genres using -hopefully- the best features from both. Adding many random events and custom reactions to each of the players actions will keep the excitement at an even level. You can basically execute some action two times and get different results because of slightly different circumstances.
 
 ## The Team
 
