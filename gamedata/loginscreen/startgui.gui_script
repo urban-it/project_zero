@@ -24,3 +24,5 @@ function on_input(self, action_id, action)
 	go.set("#creditsbox", "tint.w", 02)
 	end
 end
+
+--this is a comment; no shit.
