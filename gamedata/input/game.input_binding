@@ -12,5 +12,5 @@ mouse_trigger {
 }
 mouse_trigger {
   input: MOUSE_BUTTON_1
-  action: "touch"
+  action: "LEFT_CLICK"
 }
