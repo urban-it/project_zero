@@ -1,4 +1,33 @@
-function init(self)
+function final(self)
+	msg.post(".", "release_input_focus")
+end
+
+function on_message(self, message_id, message, sender)
+	if message_id == hash("show") then
+		msg.post(".", "enable")
+		msg.post(".", "acquire_input_focus")
+	elseif message_id == hash("hide") then
+		msg.post(".", "disable")
+		msg.post(".", "release_input_focus")
+	end
+end
+
+
+function on_input(self, action_id, action)
+	if action.released and gui.pick_node(gui.get_node("play_level"), action.x, action.y) then
+		msg.post("controller", "show_level_menu", { level_id = 1 })
+	end
+end
+
+
+
+
+
+
+
+
+
+--[[function init(self)
 	--UI wird versteckt bis sie gebraucht wird.
 	msg.post(".", "acquire_input_focus");
 	msg.post("login.gui","disable");
@@ -15,7 +44,7 @@ function on_message(self, message_id, message, sender)
 end
 ]]--
 
-function on_input(self, action_id, action)
+--[[function on_input(self, action_id, action)
 	-- wenn der Nutzer den Button triggert zeigt es unsere GUI und "graut" unseren Button aus
 	if(action_id == hash("key-b") and action.released) then
 	--UI wird wieder benötigt, also wieder reenablen
@@ -24,5 +53,4 @@ function on_input(self, action_id, action)
 	go.set("#creditsbox", "tint.w", 02)
 	end
 end
-
---this is a comment; no shit.
+this is a comment; no shit.]]--
