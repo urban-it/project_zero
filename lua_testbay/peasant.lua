@@ -6,6 +6,7 @@
 -- Required libaries
 require "math"
 
+-- Start of the peasant class and methods
 -- Lua stuff (to make this work correctly)
 math.randomseed(os.time()) -- Seed the random function with the time
 math.random(); math.random(); math.random() -- To avoid an error, where the "random" number equals 1 generate 3 numbers first
@@ -40,6 +41,7 @@ function change_love(peasant_id, lovevalue)
 end
 
 -- Testing area:
+--[[
 testguy = birth(testguy)	-- Create a monser... or a testguy
 change_love(testguy, 5) -- Give him his first lovepoints
 print("Your peasant " .. testguy.name .. " was initialized. He got " .. testguy.love .. " love for you.")
@@ -51,8 +53,12 @@ change_love(testguy, -200)	-- Remove all love from him
 print("Your peasant " .. testguy.name .. " has now " .. testguy.love .. " love for you.")
 testguy = kill(testguy)	-- Let him die :/
 if testguy then print("He is still alive! However this should be possible...") else print("Aaaaand... he is gone. :/") end
+]]--
 
 --[[
 	Notes:
 	There are no such things like classes in lua. We got that peasant_id "table" (array) for the peasant and the values (love, worship...) for the stats of the guy
+	
+	Known errors:
+
 ]]--
