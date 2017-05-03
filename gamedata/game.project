@@ -4,7 +4,7 @@ version = 0.1
 write_log = 1
 
 [bootstrap]
-main_collection = /loginscreen/loginscreen.collectionc
+main_collection = /loginscreen/allmenus.collectionc
 
 [input]
 game_binding = /input/game.input_bindingc
@@ -25,4 +25,13 @@ shared_state = 1
 
 [library]
 include_dirs = 
+
+[ios]
+bundle_identifier = lazyproggers.filthy_peasants
+
+[osx]
+bundle_identifier = lazyproggers.filthy_peasants
+
+[iap]
+auto_finish_transactions = 0
 

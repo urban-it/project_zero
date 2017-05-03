@@ -1,16 +1,15 @@
 --[[
 	the general calculator (lua testproject)
-	©Conrad Großer 2017
 ]]--
 function plus(nummer1, nummer2)
 	c = nummer1 + nummer2
-	print("The sum of ", nummer1, " and ", nummer2, " is ", c)
+	print("The sum of " .. nummer1 .. " and " .. nummer2 .. " is " .. c)
 	return
 end
 
 function minus(nummer1, nummer2)
 	c = nummer1 - nummer2
-	print("The difference between ", nummer1, " and ", nummer2, " is ", c)
+	print("The difference between ", nummer1, " and ", nummer2 " is ", c)
 	return
 end
 
