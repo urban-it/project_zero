@@ -3,7 +3,7 @@
 	©LazyProggers
 ]]--
 
--- Required libaries
+-- LIBARIES
 require "math"
 
 -- Start of the peasant class and methods
@@ -11,10 +11,10 @@ require "math"
 math.randomseed(os.time()) -- Seed the random function with the time
 math.random(); math.random(); math.random() -- To avoid an error, where the "random" number equals 1 generate 3 numbers first
 
--- Standard blueprint variables:
+-- VARIABLES
 names = {"Daniel", "Bruno", "Clemens", "Toelpel", "Nichtsnutz", "Idiot", "Dumbaf"}	-- All possible names are cached in this table
 
--- Basic functions
+-- FUNCTIONS
 function checkvalues(peasant_id)
 	if peasant_id.love > 100 then peasant_id.love = 100	end	-- Check if the love is over 100% and if yes correct it
 	if peasant_id.love < 0 then peasant_id.love = 0	end	-- Check if the love is under 0% and if yes correct it
@@ -40,7 +40,7 @@ function change_love(peasant_id, lovevalue)
 	return peasant_id
 end
 
--- Testing area:
+-- TESTING AREA
 --[[
 testguy = birth(testguy)	-- Create a monser... or a testguy
 change_love(testguy, 5) -- Give him his first lovepoints

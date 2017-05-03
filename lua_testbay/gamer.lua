@@ -3,15 +3,16 @@
 	©LazyProggers
 ]]--
 
--- Required libaries
+-- LIBARIES
 require "math"
 require "peasant"
 
 -- Start of the gamer.lua program
+-- VARIABLES
 gpower = 0 gawe = 0 gworship = 0 glove = 0 gfear = 0 ghatred = 0
 playerstats = {gawe, gworship, glove, gfear, ghatred}	-- Create array for some cases of storage of the variables/ Idea for storage
 
--- Functions to calculate the global stats
+-- FUNCTIONS
 function calc_gawe(civilisation)	-- This function adds up the awe of the civilisation
 	for i, peasant in ipairs(civilisation) do
 		gawe = peasant.awe + gawe
@@ -58,8 +59,8 @@ function calc_all(civilisation)	-- This function adds up all the values for one 
 	return	-- No value jet
 end
 
--- Testing area:
-
+-- TESTING AREA
+--[[
 peasant1 = birth(peasant1)
 change_love(peasant1, 20)
 print(peasant1.name)
@@ -75,6 +76,7 @@ print(peasant3.name)
 civilisation = {peasant1, peasant2, peasant3}
 calc_glove(civilisation)
 print(glove)
+]]--
 
 --[[
 	Notes:
