@@ -8,7 +8,7 @@ end
 local function show_screen(self, url, message)
 	hide_screen(self.current_screen)
 	self.current_screen = url
-	msg.post(self.current_screen, "show", message or {})
+	msg.post(self.current_screen, "show", message or nil)
 end
 
 -- wird erst getriggered, sobald alle GUI's gehided sind und zeigt dann das Hauptmenü
