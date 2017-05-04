@@ -15,7 +15,7 @@ math.random(); math.random(); math.random() -- To avoid an error, where the "ran
 names = {"Tjorben", "Niemand", "Idina-Hui", "Toelpel", "Nichtsnutz", "Idiot", "Dumbaf"}	-- All possible names are cached in this table
 
 -- FUNCTIONS
-function checkvalues(peasant_id)
+function check_values(peasant_id)
 	if peasant_id.awe > 100 then peasant_id.awe = 100	end	-- Check if the awe is over 100% and if yes correct it
 	if peasant_id.awe < 0 then peasant_id.awe = 0	end	-- Check if the awe is under 0% and if yes correct it
 
@@ -33,19 +33,6 @@ function checkvalues(peasant_id)
 	return peasant_id
 end
 
-function birth(peasant_id)
-	random = math.random(table.getn(names))	-- Get a random number between 0 and the lenght of the names array (table)
-	name = names[random]	-- Define name to one of the array names
-	peasant_id = {name = name, love = 0, hatred = 0, fear = 0, worship = 0, awe = 0}	-- Safe all variables in the new peasant id
-	checkvalues(peasant_id)
-	return peasant_id
-end
-
-function kill(peasant_id)
-	peasant_id = nil	-- Delete all values of the peasant given to the function
-	return peasant_id
-end
-
 function change_value(peasant_id, value, count)
 	if (value == "awe") then
 		peasant_id.awe = peasant_id.awe + count
@@ -58,24 +45,23 @@ function change_value(peasant_id, value, count)
 	elseif (value == "hatred") then
 		peasant_id.hatred = peasant_id.hatred + count
 	end
-	checkvalues(peasant_id)
+	check_values(peasant_id)
+	return peasant_id
+end
+
+function birth()
+	random = math.random(table.getn(names))	-- Get a random number between 0 and the lenght of the names array (table)
+	name = names[random]	-- Define name to one of the array names
+	peasant_id = {name = name, awe = 0, worship = 0, love = 0, fear = 0, hatred = 0}	-- Safe all variables in the new peasant id
+	return peasant_id
+end
+
+function kill(peasant_id)
+	peasant_id = nil	-- Delete all values of the peasant given to the function
 	return peasant_id
 end
 
 -- TESTING AREA
---[[
-testguy = birth(testguy)	-- Create a monser... or a testguy
-change_love(testguy, 5) -- Give him his first lovepoints
-print("Your peasant " .. testguy.name .. " was initialized. He got " .. testguy.love .. " love for you.")
-change_love(testguy, 10)	-- Give him 10 more love
-print("Your peasant " .. testguy.name .. " has now " .. testguy.love .. " love for you.")
-change_love(testguy, 150)	-- Add over 100% love to test checkvalues function
-print("Your peasant " .. testguy.name .. " has now " .. testguy.love .. " love for you.")
-change_love(testguy, -200)	-- Remove all love from him
-print("Your peasant " .. testguy.name .. " has now " .. testguy.love .. " love for you.")
-testguy = kill(testguy)	-- Let him die :/
-if testguy then print("He is still alive! However this should be possible...") else print("Aaaaand... he is gone. :/") end
-]]--
 
 --[[
 	Notes:
