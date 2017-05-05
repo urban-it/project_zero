@@ -66,36 +66,19 @@ function calc_all(civilisation)	-- This function adds up all the values for one 
 end
 
 -- TESTING AREA
-peasant1 = birth(peasant1)
-peasant2 = birth(peasant2)
-peasant3 = birth(peasant3)
-change_love(peasant1, 20)
-change_love(peasant2, -12)
-change_love(peasant3, 130)
+peasant1 = birth()
+peasant2 = birth()
+peasant3 = birth()
+change_value(peasant1, "love", 20)
+change_value(peasant2, "love", -12)
+change_value(peasant3, "love", 130)
 civilisation = {peasant1, peasant2, peasant3}
-calc_glove(civilisation)
-
---[[
-peasant1 = birth(peasant1)
-change_love(peasant1, 20)
-print(peasant1.name)
-
-peasant2 = birth(peasant2)
-change_love(peasant2, -12)
-print(peasant2.name)
-
-peasant3 = birth(peasant3)
-change_love(peasant3, 130)
-print(peasant3.name)
-
-civilisation = {peasant1, peasant2, peasant3}
-calc_glove(civilisation)
-print(glove)
-]]--
+calc_all(civilisation)
+print(gfear)
 
 --[[
 	Notes:
 	
 	Known errors:
-		No variable for calc_all function
+	
 ]]--
