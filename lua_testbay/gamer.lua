@@ -66,15 +66,6 @@ function calc_all(civilisation)	-- This function adds up all the values for one 
 end
 
 -- TESTING AREA
-peasant1 = birth()
-peasant2 = birth()
-peasant3 = birth()
-change_value(peasant1, "love", 20)
-change_value(peasant2, "love", -12)
-change_value(peasant3, "love", 130)
-civilisation = {peasant1, peasant2, peasant3}
-calc_all(civilisation)
-print(gfear)
 
 --[[
 	Notes:
