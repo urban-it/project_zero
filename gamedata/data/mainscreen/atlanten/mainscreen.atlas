@@ -1,0 +1,9 @@
+images {
+  image: "/data/mainscreen/images/stock_button_large.png"
+}
+images {
+  image: "/data/mainscreen/images/stock_background_notext.png"
+}
+margin: 0
+extrude_borders: 0
+inner_padding: 0
