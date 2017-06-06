@@ -21,8 +21,6 @@ function ability1(gpower, civilisation)
 end
 
 -- TESTING AREA
-print(gpower)
-ability1(gpower, civilisation)
 
 --[[
 	Notes:
