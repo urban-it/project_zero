@@ -1,11 +1,11 @@
-script: "/loginscreen/startgui.gui_script"
+script: "/data/loginscreen/scripts/startgui.gui_script"
 fonts {
   name: "system_font"
   font: "/builtins/fonts/system_font.font"
 }
 textures {
   name: "loginscreen"
-  texture: "/loginscreen/loginscreen.atlas"
+  texture: "/data/loginscreen/atlanten/loginscreen.atlas"
 }
 background_color {
   x: 0.0
@@ -155,9 +155,9 @@ nodes {
     w: 1.0
   }
   color {
-    x: 1.0
-    y: 1.0
-    z: 1.0
+    x: 0.0
+    y: 0.0
+    z: 0.0
     w: 1.0
   }
   type: TYPE_BOX

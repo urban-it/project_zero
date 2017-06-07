@@ -1,7 +1,7 @@
 script: ""
 textures {
   name: "levelatlas"
-  texture: "/loginscreen/levelatlas.atlas"
+  texture: "/data/loginscreen/atlanten/levelatlas.atlas"
 }
 background_color {
   x: 0.0

@@ -1,5 +1,5 @@
 images {
-  image: "/loginscreen/images/button.png"
+  image: "/data/loginscreen/images/button.png"
 }
 margin: 0
 extrude_borders: 0

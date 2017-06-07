@@ -1,0 +1,9 @@
+images {
+  image: "/data/loginscreen/images/stock_mainbackground.png"
+}
+images {
+  image: "/data/templates/images/stock_button_round.png"
+}
+margin: 0
+extrude_borders: 0
+inner_padding: 0
