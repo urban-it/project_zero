@@ -1,5 +1,5 @@
 --[[
-	Testclass for "Filthy Peasants" peasant
+	Testclass for "Filthy Peasants"
 	©LazyProggers
 ]]--
 
