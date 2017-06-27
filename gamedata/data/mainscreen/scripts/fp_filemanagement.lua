@@ -7,10 +7,14 @@
 	--	require "peasant"	--	Peasant class for peasant creation, deletion, adjustment
 	--	require "gamer"	--	Class for global variables and some player content
 
--- Start of the NAME.lua program
+-- Start of the fp_filemanagement.lua program
 
 -- VARIABLES
-filepath = "save1.save"	-- Path to the savefile
+if (filename == nil) then
+	filename = "save1.save"	-- For later integration of other filenames (save2 ... )
+end
+homepath = os.getenv("HOMEPATH")	-- Get user home path
+filepath = homepath .. "\\Documents\\FilthyPeasants\\" .. filename 	-- Complete filepath
 
 -- FUNCTIONS
 function save()	-- This function safes all variables into a savefile (declared at the beginning)
@@ -38,6 +42,7 @@ function load()	-- This function loads all variables from a savefile
 		io.close(load)	-- Close the file
 	else
 		print("No savefile found.")	-- If there is no savefile, print this
+		os.execute("mkdir C:\\users\\cngr\\Documents\\FilthyPeasants")
 	end
 end
 

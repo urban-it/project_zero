@@ -13,4 +13,3 @@ Author:		creyD
 * Lua Programming Language
 * Defold Engine
 * GitHub
-* Travis CI (pending)
