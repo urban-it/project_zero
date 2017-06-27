@@ -4,6 +4,8 @@ Minigame created with Lua and Defold
 
 Current Status: Planning | *Building* | Testing | Finished
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## The idea
 
 The title -obviously- refers to the guys you reign over within the game. It absolutly *not* refers *not* to the console peasants whom can´t get in the indulgence of this game or 60 fps.
