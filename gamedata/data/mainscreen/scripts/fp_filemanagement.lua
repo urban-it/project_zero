@@ -25,7 +25,8 @@ function save()	-- This function safes all variables into a savefile (declared a
 	io.write(gworship, "\n")
 	io.write(glove, "\n")
 	io.write(gfear, "\n")
-	io.write(ghatred)
+	io.write(ghatred, "\n")
+	io.write(gciv)
 	io.close(currentsave)	-- Close the file
 end
 
@@ -39,6 +40,7 @@ function load()	-- This function loads all variables from a savefile
 		glove = io.read("*line")
 		gfear = io.read("*line")
 		ghatred = io.read("*line")
+		gciv = io.read("*line")
 		io.close(load)	-- Close the file
 	else
 		print("No savefile found.")	-- If there is no savefile, print this
@@ -52,5 +54,5 @@ end
 	Notes:
 
 	Known errors:
-	
+	Writing a civ drops an error (Writing a table doesnt work here) -- Solution pending
 ]]--
