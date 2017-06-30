@@ -11,9 +11,8 @@ require "fp_filemanagement" -- for storing and loading game progress
 
 -- Start of the gamer.lua program
 -- VARIABLES
-gciv = {}
 gpower = 0 gawe = 0 gworship = 0 glove = 0 gfear = 0 ghatred = 0	-- Declare all environmental variables
-gciv = load(gciv)	-- Load the savefile or create a new one
+gciv = createCiv(10, "Standard Civ")
 
 -- FUNCTIONS
 function calc_power(civilisation)
@@ -62,10 +61,11 @@ function calc_all(civilisation)	-- This function adds up all the values for one 
 end
 
 -- START OF THE PROGRAM
---[[for i in ipairs(gciv) do
+load()	-- Load the savefile or create a new one
+print(checkTime(gciv))
+for i in ipairs(gciv) do
 	print(gciv[i].name)
 end
-print(gciv[0].name)]]--
 save()	-- Safe all info from the current session into a .save file
 
 -- TESTING AREA
