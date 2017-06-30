@@ -4,7 +4,7 @@
 ]]--
 
 -- LIBARIES
-require "math"
+require "math"	-- For randomly selecting selecting names
 
 -- Start of the peasant class and methods
 math.randomseed(os.time()) -- Seed the random function with the time
@@ -49,21 +49,21 @@ function change_value(peasant_id, key, value)
 	return peasant_id
 end
 
-function birth()
+function birth()	-- Create a peasant entity
 	random = math.random(table.getn(names))	-- Get a random number between 0 and the lenght of the names array (table)
 	name = names[random]	-- Define name to one of the array names
 	peasant_id = {name = name, awe = 0, worship = 0, love = 0, fear = 0, hatred = 0}	-- Safe all variables in the new peasant id
-	currentNumber = currentNumber + 1
+	currentNumber = currentNumber + 1	-- Update the current number of peasants
 	return peasant_id
 end
 
-function kill(peasant_id)
+function kill(peasant_id)	-- Delete a peasant entity
 	peasant_id = nil	-- Delete all values of the peasant given to the function
-	currentNumber = currentNumber - 1
+	currentNumber = currentNumber - 1	-- Update the current number of peasants
 	return peasant_id
 end
 
-function createCiv(numberOfPeasants, civname)
+function createCiv(numberOfPeasants, civname)	-- Create civilisation with numberOfPeasants peasants in it
 	civilistation = {}
 	civilistation[0] = {name = civname, startNumber = numberOfPeasants, creationTime = os.time()}	--	Save name, start number of peasants and starting time into the civilisation
 	for i = 1, numberOfPeasants do
@@ -73,7 +73,7 @@ function createCiv(numberOfPeasants, civname)
 end
 
 function checkTime(civ)
-	timeExists = os.time() - civ[0].creationTime	-- Calculate how long a civ exists
+	timeExists = os.time() - civ[0].creationTime	-- Calculate how long a civ exists (in seconds)
 	return timeExists
 end
 

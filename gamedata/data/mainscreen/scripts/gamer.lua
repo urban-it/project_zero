@@ -6,13 +6,13 @@
 
 -- LIBARIES
 require "math"
-require "peasant"
+require "peasant"	-- for creating and editing civilisations and peasants
 require "fp_filemanagement" -- for storing and loading game progress
 
 -- Start of the gamer.lua program
 -- VARIABLES
 gpower = 0 gawe = 0 gworship = 0 glove = 0 gfear = 0 ghatred = 0	-- Declare all environmental variables
-gciv = createCiv(10, "Standard Civ")
+gciv = createCiv(10, "Standard Civ")	-- Create a civilisation as standard
 
 -- FUNCTIONS
 function calc_power(civilisation)
@@ -62,10 +62,7 @@ end
 
 -- START OF THE PROGRAM
 load()	-- Load the savefile or create a new one
-print(checkTime(gciv))
-for i in ipairs(gciv) do
-	print(gciv[i].name)
-end
+
 save()	-- Safe all info from the current session into a .save file
 
 -- TESTING AREA
