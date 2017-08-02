@@ -2,6 +2,7 @@
 title = Filthy Peasants
 version = 0.1
 write_log = 1
+dependencies = https://github.com/andsve/dirtylarry/archive/master.zip
 
 [bootstrap]
 main_collection = /data/loginscreen/collections/allmenus.collectionc

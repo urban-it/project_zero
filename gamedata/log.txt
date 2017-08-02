@@ -2,5 +2,439 @@ INFO:DLIB: Writing log to: ./log.txt
 INFO:ENGINE: Loading data from: build/default
 INFO:ENGINE: Initialised sound device 'default'
 
-INFO:DLIB: SSDP: Started on address 192.168.4.13
-INFO:DLIB: SSDP: Done on address 192.168.4.13
+INFO:DLIB: SSDP: Started on address 169.254.231.93
+INFO:DLIB: SSDP: Started on address 192.168.56.1
+INFO:DLIB: SSDP: Started on address 192.168.128.10
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+ERROR:SCRIPT: /dirtylarry/dirtylarry.lua:114: No such node: creditsbox/bg
+stack traceback:
+	[C]: in function 'get_node'
+	/dirtylarry/dirtylarry.lua:114: in function 'input'
+	/data/loginscreen/scripts/example.gui_script:23: in function </data/loginscreen/scripts/example.gui_script:22>
+INFO:DLIB: SSDP: Done on address 169.254.231.93
+INFO:DLIB: SSDP: Done on address 192.168.56.1
+INFO:DLIB: SSDP: Done on address 192.168.128.10
