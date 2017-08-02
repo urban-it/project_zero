@@ -1,6 +1,6 @@
 components {
   id: "aquiredInput"
-  component: "/data/loginscreen/collections/aquiredInput.script"
+  component: "/data/loginscreen/collections/mousecoordinates.script"
   position {
     x: 0.0
     y: 0.0

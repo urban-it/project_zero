@@ -1,4 +1,4 @@
-script: "/data/loginscreen/scripts/startgui.gui_script"
+script: "/data/loginscreen/scripts/example.gui_script"
 fonts {
   name: "system_font"
   font: "/builtins/fonts/system_font.font"
