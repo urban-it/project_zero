@@ -20,8 +20,8 @@ function on_message(self, message_id, message, sender)
 end
 
 function on_input(self, action_id, action)
-	dirtylarry:input("creditsbox", action_id, action, gui.KEYBOARD_TYPE_DEFAULT, "Default text")
-	dirtylarry:button("play_level", action_id, action, function ()
+	dirtylarry:input("username_input", action_id, action, gui.KEYBOARD_TYPE_DEFAULT, "Default text")
+	dirtylarry:button("play_button", action_id, action, function ()
     	print("button was pressed")
 	end)
 end
