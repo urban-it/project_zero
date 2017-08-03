@@ -13,7 +13,7 @@ game_binding = /input/game.input_bindingc
 [display]
 width = 1920
 height = 1080
-fullscreen = 1
+fullscreen = 0
 update_frequency = 60
 
 [physics]

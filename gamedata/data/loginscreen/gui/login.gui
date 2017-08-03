@@ -65,7 +65,7 @@ nodes {
   clipping_inverted: false
   alpha: 0.81
   template_node_child: false
-  size_mode: SIZE_MODE_MANUAL
+  size_mode: SIZE_MODE_AUTO
 }
 nodes {
   position {
@@ -170,8 +170,8 @@ nodes {
 }
 nodes {
   position {
-    x: -13.775061
-    y: 0.0
+    x: 814.25
+    y: 467.091
     z: 0.0
     w: 1.0
   }
@@ -335,8 +335,8 @@ nodes {
 }
 nodes {
   position {
-    x: 4.0
-    y: 0.0
+    x: -292.734
+    y: -736.202
     z: 0.0
     w: 1.0
   }
@@ -392,6 +392,7 @@ nodes {
   alpha: 1.0
   outline_alpha: 1.0
   shadow_alpha: 1.0
+  overridden_fields: 1
   template_node_child: true
   text_leading: 1.0
   text_tracking: 0.0
