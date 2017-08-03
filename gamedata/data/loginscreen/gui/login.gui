@@ -39,9 +39,9 @@ nodes {
     w: 1.0
   }
   color {
-    x: 0.4
-    y: 0.2
-    z: 0.4
+    x: 0.7019608
+    y: 0.7019608
+    z: 0.101960786
     w: 1.0
   }
   type: TYPE_BOX
@@ -131,8 +131,8 @@ nodes {
 }
 nodes {
   position {
-    x: 716.878
-    y: 713.398
+    x: -104.92
+    y: 184.618
     z: 0.0
     w: 1.0
   }
@@ -525,7 +525,7 @@ nodes {
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
   text: "Dirty Larry"
-  font: "larryfont"
+  font: "system_font"
   id: "play_button/larrylabel"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
@@ -550,6 +550,7 @@ nodes {
   alpha: 1.0
   outline_alpha: 1.0
   shadow_alpha: 1.0
+  overridden_fields: 10
   template_node_child: true
   text_leading: 1.0
   text_tracking: 0.0
