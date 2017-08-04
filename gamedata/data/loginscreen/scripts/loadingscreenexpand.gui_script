@@ -1,0 +1,27 @@
+local dirtylarry = require "dirtylarry/dirtylarry"
+
+
+function init(self)
+	msg.post(".", "acquire_input_focus")
+	self.radio_value = "a"
+end
+
+function on_input(self, action_id, action)
+	--Alle Buttons, welche bis jetzt für das Hauptmenü vorgesehen sind
+	--self.input_play  = dirtylarry:input("input_play", action_id, action, gui.KEYBOARD_TYPE_DEFAULT, "Play")
+	--self.input_nickname    = dirtylarry:input("input_nickname", action_id, action, gui.KEYBOARD_TYPE_DEFAULT, "Nickname")
+	--self.input_spielstand    = dirtylarry:input("input_spielstand", action_id, action, gui.KEYBOARD_TYPE_DEFAULT, "Spielstand laden")
+	--self.input_optionen    = dirtylarry:input("input_optionen", action_id, action, gui.KEYBOARD_TYPE_DEFAULT, "Optionen")
+	--self.input_credits    = dirtylarry:input("input_credits", action_id, action, gui.KEYBOARD_TYPE_DEFAULT, "Credits")
+	--self.input_beenden    = dirtylarry:input("input_beenden", action_id, action, gui.KEYBOARD_TYPE_DEFAULT, "Beenden")
+	
+	--Funktion des Buttons "Play", sobald man über mouse input den Button triggert
+	dirtylarry:button("play_button", action_id, action, function ()
+		print("Button was pressed")
+	end)
+
+
+	dirtylarry:button("credits_button", action_id, action, function()
+		print("Credits to LazyProggers")
+	end)
+end
