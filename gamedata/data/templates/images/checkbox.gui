@@ -1,18 +1,22 @@
 script: ""
+fonts {
+  name: "larryfont"
+  font: "/dirtylarry/larryfont.font"
+}
 textures {
-  name: "levelatlas"
-  texture: "/data/loginscreen/atlanten/levelatlas.atlas"
+  name: "checkbox"
+  texture: "/dirtylarry/dirtylarry.atlas"
 }
 background_color {
   x: 0.0
   y: 0.0
   z: 0.0
-  w: 0.0
+  w: 1.0
 }
 nodes {
   position {
-    x: 962.511
-    y: 543.427
+    x: 0.0
+    y: 0.0
     z: 0.0
     w: 1.0
   }
@@ -29,8 +33,8 @@ nodes {
     w: 1.0
   }
   size {
-    x: 1920.0
-    y: 1080.0
+    x: 64.0
+    y: 68.0
     z: 0.0
     w: 1.0
   }
@@ -42,8 +46,8 @@ nodes {
   }
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
-  texture: ""
-  id: "play_level"
+  texture: "checkbox/checkbox_normal"
+  id: "larrycheckbox"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
@@ -64,5 +68,5 @@ nodes {
   size_mode: SIZE_MODE_MANUAL
 }
 material: "/builtins/materials/gui.material"
-adjust_reference: ADJUST_REFERENCE_LEGACY
+adjust_reference: ADJUST_REFERENCE_PARENT
 max_nodes: 512

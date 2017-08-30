@@ -1,0 +1,35 @@
+--[[
+	Loadingscreen Script for "Filthy Peasants"
+	©LazyProggers
+]]--
+
+-- LIBARIES (uncomment to use)
+	--	require "peasant"	--	Peasant class for peasant creation, deletion, adjustment
+	--	require "gamer"	--	Class for global variables and some player content
+
+-- Start of the loadingscreen.gui_script
+
+-- VARIABLES
+local dirtylarry = require "dirtylarry/dirtylarry"
+
+-- FUNCTIONS
+function init(self)
+	msg.post(".","acquire_input_focus")
+end
+
+
+function on_input(self, action_id, action)
+	print(dirtylarry:input("username_input", action_id, action, gui.KEYBOARD_TYPE_DEFAULT, "Default text"))
+	dirtylarry:button("play_button", action_id, action, function ()
+    	print("button was pressed")
+	end)
+end
+
+-- TESTING AREA
+
+--[[
+	Notes:
+
+	Known errors:
+	
+]]--

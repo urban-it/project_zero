@@ -1,0 +1,26 @@
+--[[
+	Mousecoordinates-Script for "Filthy Peasants"
+	©LazyProggers
+]]--
+
+-- LIBARIES (uncomment to use)
+	--	require "peasant"	--	Peasant class for peasant creation, deletion, adjustment
+	--	require "gamer"	--	Class for global variables and some player content
+
+-- Start of the mouscoordinates.script program
+
+-- VARIABLES
+
+-- FUNCTIONS
+function init(self)
+    msg.post(".", "acquire_input_focus")
+end
+
+-- TESTING AREA
+
+--[[
+	Notes:
+
+	Known errors:
+	
+]]--
