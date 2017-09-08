@@ -24,4 +24,4 @@ We are a [small team](https://github.com/LazyProggers) from germany :de:, mostly
 
 ![Our logo](https://github.com/creyD/project_zero/blob/master/docs/company_logo/Schnabeltier.jpg)
 
-*~ This file will be updated during the development. ~*
+* ~ This file will be updated during the development. ~ *
