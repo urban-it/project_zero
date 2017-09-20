@@ -1,13 +1,18 @@
 --[[
 	Stringminimizer for "Filthy Peasants"
 	©LazyProggers
+
+	Description pending.
 ]]--
 
 -- LIBARIES (uncomment to use)
 	--	require "peasant"	--	Peasant class for peasant creation, deletion, adjustment
 	--	require "gamer"	--	Class for global variables and some player content
+	--	require "fp_filemanagement"	--	Class for all utilities handing savefiles
+	--	require "fp_libary"	--	Libary class for simple functions build and used by us
+	--	require "abilities"	--	Class for all abilities and effects
 
--- FIXED VARIABLES
+-- VARIABLES
 
 -- FUNCTIONS
 function minimizeString(minString)	-- String minimizing function
@@ -56,7 +61,6 @@ function minimizeFile(file, newFile)
 	return newFile
 end
 
--- Start of the minimizer.lua program
 function oneLine()
 	if arg[1] then
 		minimizeString(arg[1])
@@ -126,9 +130,6 @@ function checkEmpty(possibleEmpty)	-- true --> Empty
 	end
 end
 
--- Start of the program code
-oneFile()
-
 -- TESTING AREA
 --[[
 print(checkEmpty(" "))	-- true
@@ -149,6 +150,9 @@ print(checkInt())		-- false
 print(checkInt(1))		-- true
 print(checkInt("123"))	-- true
 ]]--
+
+-- FUNCTION CALLS
+oneFile()
 
 --[[
 	Notes:

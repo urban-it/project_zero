@@ -1,16 +1,21 @@
 --[[
 	Peasantclass for "Filthy Peasants"
 	©LazyProggers
+
+	Description pending.
 ]]--
 
--- LIBARIES
-require "math"	-- For randomly selecting selecting names
-
--- Start of the peasant class and methods
-math.randomseed(os.time()) -- Seed the random function with the time
-math.random() math.random() math.random() -- To avoid an error, where the "random" number equals 1 generate 3 numbers first
+-- LIBARIES (uncomment to use)
+	require "math"	-- For randomly selecting selecting names
+	--	require "peasant"	--	Peasant class for peasant creation, deletion, adjustment
+	--	require "gamer"	--	Class for global variables and some player content
+	--	require "fp_filemanagement"	--	Class for all utilities handing savefiles
+	--	require "fp_libary"	--	Libary class for simple functions build and used by us
+	--	require "abilities"	--	Class for all abilities and effects
 
 -- VARIABLES
+math.randomseed(os.time()) -- Seed the random function with the time
+math.random() math.random() math.random() -- To avoid an error, where the "random" number equals 1 generate 3 numbers first
 names = {"Tjorben", "Niemand", "Idina-Hui", "Toelpel", "Nichtsnutz", "Idiot", "Dumbaf"}	-- All possible names are cached in this table
 currentNumber = 0
 
@@ -78,6 +83,8 @@ function checkTime(civ)
 end
 
 -- TESTING AREA
+
+-- FUNCTION CALLS
 
 --[[
 	Notes:
