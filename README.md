@@ -20,8 +20,10 @@ The current idle games only offer little interaction and planning ahead as only 
 
 ## The team
 
-We are a [small team](https://github.com/LazyProggers) from germany :de:, mostly trainees in the field of software development (:beginner:) and we are trying to get some experience in game development. The name "Lazy Proggers" should be pretty self explaining, we all are somehow lazy which forces us to write simple and clean code. Next to the developers ([UltraLurd](https://github.com/UltraLurd), [xFuture](https://github.com/xFuture603) and [creyD](https://github.com/creyD)) we currently got one designer ([clomee](https://github.com/clomee)) and another pending. Our goal is to build the game mentioned above with the current team and improve as programmers individually. Don´t mind us...
+We are a [small team](https://github.com/LazyProggers) from germany :de:, mostly trainees in the field of software development (:beginner:) and we are trying to get some experience in game development. The name "Lazy Proggers" should be pretty self explaining, we all are somehow lazy which forces us to write simple and clean code. Next to the developers ([UltraLurd](https://github.com/UltraLurd), [xFuture](https://github.com/xFuture603) and [creyD](https://github.com/creyD)) we currently got one designer ([clomee](https://github.com/clomee)) and another one pending. Our goal is to build the game mentioned above with the current team and improve as programmers individually. As we are all kind of lazy and got work to do, there is no such thing as a deadline... We will develop this at our own individual pace.
+
+Bye
 
 ![Our logo](https://github.com/creyD/project_zero/blob/master/docs/company_logo/Schnabeltier.jpg)
 
-*~ This file will be updated during the development. ~*
+**This file will be updated during the development.**
