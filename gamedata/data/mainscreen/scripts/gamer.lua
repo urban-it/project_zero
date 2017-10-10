@@ -1,15 +1,18 @@
 --[[
 	Gamerclass for "Filthy Peasants"
-	CURRENTLY MAIN CLASS
 	©LazyProggers
+
+	Description pending.
 ]]--
 
--- LIBARIES
-require "math"
-require "peasant"	-- for creating and editing civilisations and peasants
-require "fp_filemanagement" -- for storing and loading game progress
+-- LIBARIES (uncomment to use)
+	require "math"
+	require "peasant"	-- for creating and editing civilisations and peasants
+	require "fp_filemanagement" -- for storing and loading game progress
+	--	require "gamer"	--	Class for global variables and some player content
+	--	require "fp_libary"	--	Libary class for simple functions build and used by us
+	--	require "abilities"	--	Class for all abilities and effects
 
--- Start of the gamer.lua program
 -- VARIABLES
 gpower = 0 gawe = 0 gworship = 0 glove = 0 gfear = 0 ghatred = 0	-- Declare all environmental variables
 gciv = createCiv(10, "Standard Civ")	-- Create a civilisation as standard
@@ -60,7 +63,7 @@ function calc_all(civilisation)	-- This function adds up all the values for one 
 	end
 end
 
--- START OF THE PROGRAM
+-- FUNCTION CALLS
 load()	-- Load the savefile or create a new one
 
 save()	-- Safe all info from the current session into a .save file

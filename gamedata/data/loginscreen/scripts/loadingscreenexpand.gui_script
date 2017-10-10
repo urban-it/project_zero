@@ -16,10 +16,6 @@ local dirtylarry = require "dirtylarry/dirtylarry"
 function init(self)
 	msg.post(".", "acquire_input_focus")
 	self.radio_value = "a"
-	-- Test starting
-	label.set_text("/01_main_menu#01_fettesTestLabel", "Hello World!")
-	print("Code executed")
-	-- Test ending
 end
 
 function on_input(self, action_id, action)
