@@ -10,3 +10,6 @@ If you want to contribute yourself you should:
 2. Push your code
 3. Test your code properly
 4. Create Pull Request and reference issue, if it already exists
+5. Wait for one of the admins to merge, you may tag them using @creyD or @xFuture603
+
+Thank you again for contributing!
